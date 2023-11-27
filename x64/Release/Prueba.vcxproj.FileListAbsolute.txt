@@ -1,1 +1,2 @@
 C:\Users\diego\source\repos\Prueba\x64\Release\Prueba.exe
+C:\Users\User S\source\repos\DAMT777\ProyectoPOO\x64\Release\ProyectoPOO.exe
