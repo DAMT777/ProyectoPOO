@@ -8,7 +8,7 @@ int main()
     {
         return EXIT_FAILURE;
     }
-    sf::Text title("Hola, tengo que hacer un juego, HIJUEPUTA! (no hay tiempo)", magical, 30);
+    sf::Text title("Hola, tengo que hacer un juego, HIJUEPUTA! (no hay tiempo) soy yisus", magical, 30);
     title.setFillColor(sf::Color::White);
     title.setPosition(50, 50);
     sf::Sprite Skeleton;
