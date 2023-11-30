@@ -140,9 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="skins.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animaciones.h" />
     <ClInclude Include="colisiones..h" />
+    <ClInclude Include="combate.h" />
     <ClInclude Include="skins.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
