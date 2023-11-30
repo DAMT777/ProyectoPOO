@@ -6,7 +6,7 @@
 class Combate{
 	public:
 		virtual void barraDeVida() = 0;
-		virtual int ataque(Arma *arma) = 0;
+		virtual int ataque(/* Arma* arma */) = 0;
 };
 
 
