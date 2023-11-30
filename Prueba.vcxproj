@@ -143,14 +143,21 @@
     <ClCompile Include="entidad.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="skins.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animaciones.h" />
     <ClInclude Include="colisiones..h" />
+<<<<<<< HEAD
+    <ClInclude Include="combate.h" />
+    <ClInclude Include="skins.h" />
+=======
     <ClInclude Include="enemigos.h" />
     <ClInclude Include="entidad.h" />
     <ClInclude Include="estadoEnemigos.h" />
     <ClInclude Include="jefe.h" />
     <ClInclude Include="normales.h" />
+>>>>>>> d5a84a1367f21a0cd09c903889b14e1fe2faf6ae
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

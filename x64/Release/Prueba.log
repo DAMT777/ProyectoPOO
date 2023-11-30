@@ -2,6 +2,13 @@
 <<<<<<< HEAD
 =======
   main.cpp
+<<<<<<< HEAD
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 67 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Prueba.vcxproj -> C:\Users\diego\OneDrive\Documentos\xdxdddd\x64\Release\ProyectoPOO.exe
+=======
 C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(16,21): warning C4129: 'S': secuencia de escape de carácter no reconocida
 >>>>>>> d3d0860a86965bb29bef207c5bebc1843a34de4b
   Generando código
@@ -12,4 +19,8 @@ C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(16,21): warning C4129: 'S': se
   Prueba.vcxproj -> C:\Users\BIENVENIDO\source\repos\DAMT777\ProyectoPOO\x64\Release\ProyectoPOO.exe
 =======
   Prueba.vcxproj -> C:\Users\Usuario\Documents\Unillanos\POO\x64\Release\ProyectoPOO.exe
+<<<<<<< HEAD
+>>>>>>> 6356fec3dc3835439582cc33db0abecb7ae51b9d
+=======
 >>>>>>> d3d0860a86965bb29bef207c5bebc1843a34de4b
+>>>>>>> 3ad67fd68c0c085ea55931fecf29d736f380f39c
