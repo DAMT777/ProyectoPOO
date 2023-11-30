@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="enemigos.cpp" />
+    <ClCompile Include="entidad.cpp" />
+    <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colisiones..h" />
+    <ClInclude Include="enemigos.h" />
+    <ClInclude Include="entidad.h" />
+    <ClInclude Include="estadoEnemigos.h" />
+    <ClInclude Include="jefe.h" />
+    <ClInclude Include="normales.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
