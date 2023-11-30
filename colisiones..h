@@ -7,3 +7,4 @@ class Colisiones {
 		virtual bool validar() = 0;
 	};
 #endif
+//interface Colisiones(el nombre es colisiones..hcon dos puntos pq se me fue xd)
