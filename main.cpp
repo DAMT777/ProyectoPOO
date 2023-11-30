@@ -9,7 +9,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(1024, 800), "Ventana de prueba");
     
     sf::Texture t1;
-    t1.loadFromFile("Skeleton/Sprite_Sheets/Skeleton_Walk.png");
+    t1.loadFromFile("Sprites/Skeleton/Sprite_sheets/Skeleton_Walk.png");
     float escalarX = 5;
     float escalarY = 5;
     sf::IntRect srcRect(0, 0, 22.15, 33);
