@@ -8,9 +8,14 @@ int main()
     {
         return EXIT_FAILURE;
     }
-    sf::Text title("Hola, tengo que hacer un juego, hice un cambio soy montoy ", magical, 30);
+    sf::Text title("Hola, tengo que hacer un juego, HIJUEPUTA! (no hay tiempo) soy yisus", magical, 30);
     title.setFillColor(sf::Color::White);
     title.setPosition(50, 50);
+    sf::Sprite Skeleton;
+    sf::Texture t1;
+    t1.loadFromFile("Skeleton\Sprite_Sheets\Skeleton_Walk.png");
+    Skeleton.setTexture(t1);
+    Skeleton.setPosition(0, -150);
     while (window.isOpen())
     {
         sf::Event event;
@@ -20,7 +25,10 @@ int main()
                 window.close();
         }
         window.clear();
-        window.draw(title);
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+            Skeleton.setPosition(Skeleton.getPosition().x+5, Skeleton.getPosition().y);
+        }
+        window.draw(Skeleton);
         window.display();
     }
 
