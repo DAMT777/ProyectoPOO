@@ -4,7 +4,6 @@
       "inheritEnvironments": [
         "msvc_x64"
       ],
-      "name": "x64-Release",
       "includePath": [
         "${env.INCLUDE}",
         "${workspaceRoot}\\**"
@@ -15,7 +14,6 @@
         "UNICODE",
         "_UNICODE"
       ],
-      "intelliSenseMode": "windows-msvc-x64"
     }
   ]
 }
