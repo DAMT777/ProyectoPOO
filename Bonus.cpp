@@ -7,5 +7,4 @@ void Bonus::setDescripcion(string desccripcion) {
 string Bonus::getDescripcion() {
 	return this->descripcion;
 }
-
 #endif
