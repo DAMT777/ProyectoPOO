@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Armas.cpp" />
     <ClCompile Include="bonus.cpp" />
+    <ClCompile Include="cac.cpp" />
     <ClCompile Include="dociles.cpp" />
     <ClCompile Include="enemigos.cpp" />
     <ClCompile Include="entidad.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="Filo.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="malignas.cpp" />
     <ClCompile Include="npc.cpp" />
     <ClCompile Include="Pociones.cpp" />
     <ClCompile Include="protagonista.cpp" />
@@ -156,12 +158,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animaciones.h" />
+    <ClInclude Include="armaelemental.h" />
     <ClInclude Include="Armas.h" />
     <ClInclude Include="bonus.h" />
+    <ClInclude Include="cac.h" />
     <ClInclude Include="colisiones..h" />
     <ClInclude Include="combate.h" />
     <ClInclude Include="dociles.h" />
+    <ClInclude Include="Encantamientos.h" />
     <ClInclude Include="Envenenamiento.h" />
+    <ClInclude Include="Especial.h" />
     <ClInclude Include="filo.h" />
     <ClInclude Include="Malignas.h" />
     <ClInclude Include="npc.h" />

@@ -2,6 +2,7 @@
 #ifndef ARMAS_H
 #define ARMAS_H
 #include "Objetos.h"
+#include "Encantamientos.h"
 class Armas : public Objetos {
 	private:
 		int danio;
