@@ -10,15 +10,13 @@ using namespace sf;
 class Skins {
 	private:
 		vector <string> skinFiles;
-		vector <IntRect> dimensiones;
-		Texture textura;
-
+		vector <IntRect*> dimensiones;
+		Sprite *sprite;
 	public:
-		Skins();
-		Skins(vector <string> &skinFiles, vector <IntRect> &dimensiones,Texture &textura);
+		Skins(vector <string> &skinFiles, vector <IntRect*> &dimensiones, Sprite*sprite);
 		string getSkinFiles(int pos);
 		void setSkinFiles(vector <string> &skinFiles);
-		virtual Sprite getSkin() = 0;
+		Sprite* getSprite();
 };
 
 
