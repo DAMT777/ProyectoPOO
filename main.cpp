@@ -3,11 +3,11 @@
 #include <vector>
 #include "skins.h"
 using namespace std;
-
+string getFile(string nombreFile);
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1024, 800), "Ventana de prueba");
+    sf::RenderWindow window(sf::VideoMode(512, 256), "Ventana de prueba");
 
 
     vector <string> files;
@@ -54,4 +54,10 @@ sf:Sprite caballero;
     }
 
     return 0;
+}
+
+
+string getFile(string nombreFile){
+    
+
 }
