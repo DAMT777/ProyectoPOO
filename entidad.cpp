@@ -16,4 +16,8 @@ void Entidad::setVelocidad(float velocidad) {
 void Entidad::setVida(int vida) {
 	this->vida = vida; 
 }
+Skins* Entidad::getSkin()
+{
+	return this->skin;
+}
 #endif 

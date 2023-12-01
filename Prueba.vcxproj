@@ -139,17 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dociles.cpp" />
     <ClCompile Include="enemigos.cpp" />
     <ClCompile Include="entidad.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="protagonista.cpp" />
     <ClCompile Include="skins.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animaciones.h" />
     <ClInclude Include="colisiones..h" />
-
     <ClInclude Include="combate.h" />
+    <ClInclude Include="dociles.h" />
+    <ClInclude Include="protagonista.h" />
     <ClInclude Include="skins.h" />
     <ClInclude Include="enemigos.h" />
     <ClInclude Include="entidad.h" />
