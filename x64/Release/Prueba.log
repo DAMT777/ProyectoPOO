@@ -1,12 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (x64\Release\) contiene archivos compartidos de otro proyecto (Prueba.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
-  enemigos.cpp
-  entidad.cpp
-C:\Users\Usuario\Documents\Unillanos\POO\entidad.cpp(14,20): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  jefe.cpp
-  Generando código
-  0 of 169 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Generación de código finalizada
-  Prueba.vcxproj -> C:\Users\Usuario\Documents\Unillanos\POO\x64\Release\ProyectoPOO.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files tiene un valor "<<<<<<< HEAD" no válido. Caracteres no válidos en la ruta de acceso.
+  protagonista.cpp
+C:\Users\Usuario\Documents\Unillanos\POO\protagonista.cpp(3,102): error C2661: 'Dociles::Dociles': ninguna función sobrecargada acepta 3 argumentos
+  C:\Users\Usuario\Documents\Unillanos\POO\protagonista.cpp(3,102):
+  al hacer coincidir la lista de argumentos '(int, int, std::string)'
+  

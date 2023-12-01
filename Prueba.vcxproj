@@ -144,6 +144,7 @@
     <ClCompile Include="entidad.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="npc.cpp" />
     <ClCompile Include="protagonista.cpp" />
     <ClCompile Include="skins.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="colisiones..h" />
     <ClInclude Include="combate.h" />
     <ClInclude Include="dociles.h" />
+    <ClInclude Include="npc.h" />
     <ClInclude Include="protagonista.h" />
     <ClInclude Include="skins.h" />
     <ClInclude Include="enemigos.h" />

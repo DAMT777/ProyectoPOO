@@ -3,7 +3,7 @@
 #define DOCILES_CPP
 #include "dociles.h"
 
-Dociles::Dociles(int vida, int velocidad): Entidad(vida, velocidad){}
+Dociles::Dociles(int vida, int velocidad, string nombre): Entidad(vida, velocidad){}
 
 string Dociles::getNombre()
 {
