@@ -4,10 +4,10 @@ Skins::Skins()
 {
 }
 
-Skins::Skins(vector<string> &skinFiles, vector <IntRect> &dimensiones,Texture &textura)
+Skins::Skins(vector<string> &skinFiles, vector <IntRect> &dimensiones)
 {
     this->skinFiles = skinFiles;
-    textura = textura;
+    textura.loadFromFile(skinFiles[0]);
 }
 
 string Skins::getSkinFiles(int pos)

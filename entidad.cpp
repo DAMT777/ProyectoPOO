@@ -5,15 +5,15 @@
 Entidad::Entidad(){}
 Entidad::Entidad(int vida, int velocidad) {} 
 int Entidad::getVelocidad() {
-	return velocidad; 
+	return this->velocidad; 
 }
 int Entidad::getVida() {
-	return vida; 
+	return this->vida; 
 }
-void Entidad::setVelocidad(float nuevaVelocidad) {
-	velocidad = nuevaVelocidad; 
+void Entidad::setVelocidad(float velocidad) {
+	this->velocidad = velocidad; 
 }
-void Entidad::setVida(int nuevaVida) {
-	vida = nuevaVida; 
+void Entidad::setVida(int vida) {
+	this->vida = vida; 
 }
 #endif 
