@@ -1,0 +1,6 @@
+Sprites/female/Idle.png
+Sprites/female/Run.png
+Sprites/female/Jump.png
+Sprites/female/Attack1.png
+Sprites/female/Hit.png
+Sprites/female/Death.png

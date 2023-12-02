@@ -1,21 +1,21 @@
+#ifndef SKINS_CPP
+#define SKINS_CPP
+
 #include "skins.h"
 
-Skins::Skins()
+
+Skins::Skins(IntRect* dimension, Texture *textura):
+    dimension(dimension), sprite(new Sprite(*textura)){}
+
+
+void Skins::setDimension(IntRect* dimension)
 {
+    this->dimension = dimension;
 }
 
-Skins::Skins(vector<string> &skinFiles, vector <IntRect> &dimensiones,Texture &textura)
+Sprite* Skins::getSprite()
 {
-    this->skinFiles = skinFiles;
-    textura = textura;
+    return this->sprite;
 }
 
-string Skins::getSkinFiles(int pos)
-{
-    return skinFiles[pos];
-}
-
-void Skins::setSkinFiles(vector<string>& skinFiles)
-{
-    this->skinFiles = skinFiles;
-}
+#endif

@@ -9,16 +9,12 @@ using namespace std;
 using namespace sf;
 class Skins {
 	private:
-		vector <string> skinFiles;
-		vector <IntRect> dimensiones;
-		Texture textura;
-
+		IntRect* dimension;
+		Sprite *sprite;
 	public:
-		Skins();
-		Skins(vector <string> &skinFiles, vector <IntRect> &dimensiones,Texture &textura);
-		string getSkinFiles(int pos);
-		void setSkinFiles(vector <string> &skinFiles);
-		virtual Sprite getSkin() = 0;
+		Skins(IntRect* dimension, Texture* textura);
+		void setDimension(IntRect* dimension);
+		Sprite* getSprite();
 };
 
 

@@ -6,8 +6,8 @@ Filo::Filo(string descripcion, int aumento): Bonus(descripcion), aumento(aumento
 int Filo::getAumento() {
 	return this->aumento;
 }
-void Filo::setAumento() {
-	this->filo = filo;
+void Filo::setAumento(int aumento) {
+	this->aumento = aumento;
 }
 int Filo::getTipo() {
 	return 1;

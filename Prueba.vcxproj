@@ -139,25 +139,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Armas.cpp" />
+    <ClCompile Include="bonus.cpp" />
+    <ClCompile Include="cac.cpp" />
+    <ClCompile Include="dociles.cpp" />
     <ClCompile Include="enemigos.cpp" />
     <ClCompile Include="entidad.cpp" />
+    <ClCompile Include="Envenenamiento.cpp" />
+    <ClCompile Include="Filo.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="normales.cpp" />
+=======
+    <ClCompile Include="malignas.cpp" />
+>>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="Pociones.cpp" />
+    <ClCompile Include="protagonista.cpp" />
+    <ClCompile Include="Sanadoras.cpp" />
     <ClCompile Include="skins.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animaciones.h" />
+    <ClInclude Include="armaelemental.h" />
+    <ClInclude Include="Armas.h" />
+    <ClInclude Include="bonus.h" />
+    <ClInclude Include="cac.h" />
     <ClInclude Include="colisiones..h" />
-<<<<<<< HEAD
     <ClInclude Include="combate.h" />
+    <ClInclude Include="dociles.h" />
+    <ClInclude Include="Encantamientos.h" />
+    <ClInclude Include="Envenenamiento.h" />
+    <ClInclude Include="Especial.h" />
+    <ClInclude Include="filo.h" />
+    <ClInclude Include="inventario.h" />
+    <ClInclude Include="Malignas.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="Objetos.h" />
+    <ClInclude Include="Pociones.h" />
+    <ClInclude Include="protagonista.h" />
+    <ClInclude Include="Sanadoras.h" />
     <ClInclude Include="skins.h" />
-=======
     <ClInclude Include="enemigos.h" />
     <ClInclude Include="entidad.h" />
     <ClInclude Include="estadoEnemigos.h" />
     <ClInclude Include="jefe.h" />
     <ClInclude Include="normales.h" />
->>>>>>> d5a84a1367f21a0cd09c903889b14e1fe2faf6ae
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
