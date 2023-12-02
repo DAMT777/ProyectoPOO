@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="armaelemental.cpp" />
     <ClCompile Include="Armas.cpp" />
     <ClCompile Include="bonus.cpp" />
     <ClCompile Include="cac.cpp" />
