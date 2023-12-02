@@ -57,7 +57,14 @@
     <ClCompile Include="Sanadoras.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="normales.cpp">
+=======
+    <ClCompile Include="malignas.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="cac.cpp">
+>>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,10 +126,23 @@
     <ClInclude Include="Malignas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="inventario.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Objetos.h">
+=======
+    <ClInclude Include="cac.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Encantamientos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Especial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="armaelemental.h">
+>>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
