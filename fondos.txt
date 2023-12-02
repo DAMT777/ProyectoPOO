@@ -1,0 +1,7 @@
+Sprites/MONSTER/FONDOS/background/background_layer_1
+Sprites/MONSTER/FONDOS/background/background_layer_2
+Sprites/MONSTER/FONDOS/background/background_layer_3
+Sprites/MONSTER/FONDOS/background/background1
+Sprites/MONSTER/FONDOS/background/background4a
+Sprites/MONSTER/FONDOS/background/background4b
+
