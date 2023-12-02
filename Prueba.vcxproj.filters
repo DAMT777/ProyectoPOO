@@ -1,155 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="Armas.cpp" />
+    <ClCompile Include="bonus.cpp" />
+    <ClCompile Include="dociles.cpp" />
+    <ClCompile Include="enemigos.cpp" />
+    <ClCompile Include="entidad.cpp" />
+    <ClCompile Include="Envenenamiento.cpp" />
+    <ClCompile Include="Filo.cpp" />
+    <ClCompile Include="jefe.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="normales.cpp" />
+    <ClCompile Include="malignas.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="Pociones.cpp" />
+    <ClCompile Include="protagonista.cpp" />
+    <ClCompile Include="Sanadoras.cpp" />
+    <ClCompile Include="skins.cpp" />
+    <ClCompile Include="cac.cpp" />
+    <ClCompile Include="armaelemental.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="entidad.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="enemigos.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="jefe.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="skins.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="dociles.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="protagonista.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="npc.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="bonus.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Envenenamiento.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Pociones.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Filo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Armas.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Sanadoras.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ClCompile Include="normales.cpp">
-=======
-    <ClCompile Include="malignas.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="cac.cpp">
->>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-=======
->>>>>>> parent of 664edb9 (bhjbj)
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="animaciones.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="combate.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="skins.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="colisiones..h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="enemigos.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="entidad.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="estadoEnemigos.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="jefe.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="normales.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="dociles.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="protagonista.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="npc.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="bonus.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Envenenamiento.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Pociones.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="filo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Armas.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Sanadoras.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Malignas.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ClInclude Include="inventario.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Objetos.h">
-=======
-    <ClInclude Include="cac.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Encantamientos.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Especial.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="armaelemental.h">
->>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-=======
->>>>>>> parent of 664edb9 (bhjbj)
+    <ClInclude Include="animaciones.h" />
+    <ClInclude Include="Armas.h" />
+    <ClInclude Include="bonus.h" />
+    <ClInclude Include="colisiones..h" />
+    <ClInclude Include="combate.h" />
+    <ClInclude Include="dociles.h" />
+    <ClInclude Include="Envenenamiento.h" />
+    <ClInclude Include="filo.h" />
+    <ClInclude Include="inventario.h" />
+    <ClInclude Include="Malignas.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="Objetos.h" />
+    <ClInclude Include="Pociones.h" />
+    <ClInclude Include="protagonista.h" />
+    <ClInclude Include="Sanadoras.h" />
+    <ClInclude Include="skins.h" />
+    <ClInclude Include="enemigos.h" />
+    <ClInclude Include="entidad.h" />
+    <ClInclude Include="estadoEnemigos.h" />
+    <ClInclude Include="jefe.h" />
+    <ClInclude Include="normales.h" />
+    <ClInclude Include="cac.h" />
+    <ClInclude Include="armaelemental.h" />
   </ItemGroup>
 </Project>

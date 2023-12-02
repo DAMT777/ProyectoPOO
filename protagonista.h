@@ -26,7 +26,8 @@ class Protagonista : public Combate, public Dociles, public Inventario {
 		void movimientos(Keyboard* key)override;
 
 		//metodos clase combate
-
+		Sprite* barraDeVida() override;
+		int ataque(Armas* arma) override;
 		
 };
 

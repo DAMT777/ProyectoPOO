@@ -7,8 +7,8 @@
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(512, 256), "Ventana de prueba");
-    
-   // Protagonista player(100, 5, "suat", 0);
+    //hacer la entrada del texto para el nombre
+    Protagonista player(100, 5, "suat", 0);
    
     /*
     vector <string> files;
@@ -52,7 +52,7 @@ int main()
 
         }
             window.clear(Color::White);
-            window.draw();
+           // window.draw(player.getSkin()->getSprite());
             window.display();
     }
 

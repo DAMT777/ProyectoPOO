@@ -42,6 +42,7 @@ void Protagonista::movimientos(Keyboard* key)
 
 	string archivo = "rutas_prota.txt";
 	
+
 	//cambiar el sprite segun la tecla que se presione
 	
 	//no esta lista la funcionalidad aún
@@ -51,6 +52,47 @@ void Protagonista::movimientos(Keyboard* key)
 
 	}
 	
+}
+
+Sprite* Protagonista::barraDeVida()
+{
+	Sprite sprite;
+	Texture t;
+	IntRect cuadro;
+	t.loadFromFile("Sprite/MONSTER/ICONS/helth_bar.png");
+	if (this->getVida() == 5) {
+		IntRect cuadro(0, 0, 32, 32);
+		sprite.setTextureRect(cuadro);
+
+	}
+	else if (this->getVida() == 4) {
+		IntRect cuadro(32, 0, 32, 32);
+		sprite.setTextureRect(cuadro);
+	}
+	else if (this->getVida() == 3) {
+		IntRect cuadro(64, 0, 32, 32);
+		sprite.setTextureRect(cuadro);
+	}
+	else if (this->getVida() == 2) {
+		IntRect cuadro(0, -32, 32, 32);
+		sprite.setTextureRect(cuadro);
+	}
+	else if (this->getVida() == 1) {
+		IntRect cuadro(32, -32, 32, 32);
+		sprite.setTextureRect(cuadro);
+	}
+	else if (this->getVida() < 0 ) {
+		IntRect cuadro(32, -32, 32, 32);
+		sprite.setTextureRect(cuadro);
+	}
+	
+	return &sprite;
+
+}
+
+int Protagonista::ataque(Armas* arma)
+{
+	return arma->getDanio();
 }
 
 
