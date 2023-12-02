@@ -148,14 +148,10 @@
     <ClCompile Include="Filo.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
     <ClCompile Include="normales.cpp" />
-=======
+
     <ClCompile Include="malignas.cpp" />
->>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
-=======
->>>>>>> parent of 664edb9 (bhjbj)
+
     <ClCompile Include="npc.cpp" />
     <ClCompile Include="Pociones.cpp" />
     <ClCompile Include="protagonista.cpp" />

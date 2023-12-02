@@ -11,10 +11,13 @@ class Skins {
 	private:
 		IntRect* dimension;
 		Sprite *sprite;
+		vector <string> skinFiles;
 	public:
 		Skins(IntRect* dimension, Texture* textura);
 		void setDimension(IntRect* dimension);
 		Sprite* getSprite();
+		void setSkinFiles(string archivo);
+		vector <string>* getSkinFiles();
 };
 
 

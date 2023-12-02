@@ -1,62 +1,41 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (x64\Release\) contiene archivos compartidos de otro proyecto (Prueba.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
-  dociles.cpp
-  enemigos.cpp
-  entidad.cpp
-  jefe.cpp
   main.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,38): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,38): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,38): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,38): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,38): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,31): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,31): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,31): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,31): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(22,31): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(30,14): warning C4091: '': se ha omitido a la izquierda de 'sf::Clock' cuando no hay ninguna variable declarada
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,52): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,52): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,52): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,52): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,52): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,45): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,45): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,45): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,45): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(43,45): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,52): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,52): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,52): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,52): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,52): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,45): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,45): warning C4244:         with
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,45): warning C4244:         [
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,45): warning C4244:             T=int
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(49,45): warning C4244:         ]
-C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(27,1): warning C4102: 'sf': etiqueta sin referencia
-  npc.cpp
-  protagonista.cpp
-  Generando código
-  0 of 169 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Generación de código finalizada
-skins.obj : warning LNK4205: falta información de depuración actual de '' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
-Filo.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-jefe.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-jefe.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-jefe.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-npc.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-Pociones.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-protagonista.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-Sanadoras.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-Sanadoras.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-Sanadoras.obj : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-sfml-graphics.lib(sfml-graphics-2.dll) : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-sfml-window.lib(sfml-window-2.dll) : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-sfml-window.lib(sfml-window-2.dll) : warning LNK4020: un registro de tipo de '' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
-  Prueba.vcxproj -> C:\Users\Usuario\Documents\Unillanos\POO\x64\Release\ProyectoPOO.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files tiene un valor "<<<<<<< HEAD" no válido. Caracteres no válidos en la ruta de acceso.
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,39): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,39): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,39): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,39): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,39): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,31): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,31): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,31): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,31): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(18,31): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(27,14): warning C4091: '': se ha omitido a la izquierda de 'sf::Clock' cuando no hay ninguna variable declarada
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,52): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,52): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,52): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,52): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,52): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,45): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,45): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,45): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,45): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(41,45): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,52): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,52): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,52): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,52): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,52): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,45): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,45): warning C4244:         with
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,45): warning C4244:         [
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,45): warning C4244:             T=int
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(47,45): warning C4244:         ]
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(23,5): warning C4102: 'sf': etiqueta sin referencia
+C:\Users\Usuario\Documents\Unillanos\POO\main.cpp(10,18): warning C4930: 'Protagonista player(void)': no se ha llamado a la función prototipo (¿se pensó una definición de variable?)
+  malignas.cpp
+/malignas.cpp(1,1): error C1083: No se puede abrir el archivo origen: 'malignas.cpp': No such file or directory
+  (compilando archivo de origen "/malignas.cpp")
+  
+  skins.cpp
+C:\Users\Usuario\Documents\Unillanos\POO\skins.cpp(26,1): error C1075: "{": no se encontró ningún token coincidente

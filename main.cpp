@@ -1,25 +1,22 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
-#include <string>
-#include <vector>
-#include "skins.h"
-#include <string_view>
+#include "protagonista.h"
 
-using namespace std;
+
 
 //string getFile(string nombreFile);
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(512, 256), "Ventana de prueba");
-
     
+   // Protagonista player(100, 5, "suat", 0);
+   
+    /*
     vector <string> files;
     files.push_back("Sprites/PROTAGREY/Outline/120x80_PNGSheets/_Idle.png");
     files.push_back("");
     float escalarX = 2;
     float escalarY = 2;
-    sf::IntRect srcRect(0, 0, 120.0, 80.0);
+    sf::IntRect srcRect(0, 0, 120.0f, 80.0f);
     vector <IntRect*> dimension;
     dimension.push_back(&srcRect);
     sf::Texture t;
@@ -30,7 +27,7 @@ int main()
     caballero.setTextureRect(*dimension[0]);
     sf::Clock;
     
-    caballero.setScale(escalarX, escalarY);
+    caballero.setScale(escalarX, escalarY);*/
 
     while (window.isOpen())
     {
@@ -42,20 +39,20 @@ int main()
             }
             if (sf::Keyboard::isKeyPressed(Keyboard::D)){
                 
-                sf::IntRect derecho(120, 0, 120.0, 80.0);
-                caballero.setTextureRect(derecho);
-                caballero.move(5,0);
+                //sf::IntRect derecho(120, 0, 120.0, 80.0);
+                //caballero.setTextureRect(derecho);
+                //caballero.move(5,0);
             }
             if (sf::Keyboard::isKeyPressed(Keyboard::A)) {
 
-                sf::IntRect derecho(120, 0, 120.0, 80.0);
+               /* sf::IntRect derecho(120, 0, 120.0, 80.0);
                 caballero.setTextureRect(derecho);
-                caballero.move(-5, 0);
+                caballero.move(-5, 0);*/
             }
 
         }
             window.clear(Color::White);
-            window.draw(caballero);
+            window.draw();
             window.display();
     }
 
