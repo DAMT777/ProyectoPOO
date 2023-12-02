@@ -58,6 +58,7 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="normales.cpp">
 =======
     <ClCompile Include="malignas.cpp">
@@ -67,6 +68,8 @@
 >>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+=======
+>>>>>>> parent of 664edb9 (bhjbj)
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animaciones.h">
@@ -127,6 +130,7 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="inventario.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -145,5 +149,7 @@
 >>>>>>> 664edb93ecca200a1eb249ae4cf33177b49d08c2
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+=======
+>>>>>>> parent of 664edb9 (bhjbj)
   </ItemGroup>
 </Project>
