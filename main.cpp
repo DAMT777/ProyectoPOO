@@ -1,15 +1,19 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <string>
 #include <vector>
 #include "skins.h"
+#include <string_view>
+
 using namespace std;
-string getFile(string nombreFile);
+
+//string getFile(string nombreFile);
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(512, 256), "Ventana de prueba");
 
-
+    
     vector <string> files;
     files.push_back("Sprites/PROTAGREY/Outline/120x80_PNGSheets/_Idle.png");
     files.push_back("");
@@ -20,10 +24,12 @@ int main()
     dimension.push_back(&srcRect);
     sf::Texture t;
     t.loadFromFile(files[0]);
-sf:Sprite caballero;
+    sf:Sprite caballero;
+    
     caballero.setTexture(t);
     caballero.setTextureRect(*dimension[0]);
     sf::Clock;
+    
     caballero.setScale(escalarX, escalarY);
 
     while (window.isOpen())
@@ -57,7 +63,3 @@ sf:Sprite caballero;
 }
 
 
-string getFile(string nombreFile){
-    
-
-}

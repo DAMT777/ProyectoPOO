@@ -148,6 +148,7 @@
     <ClCompile Include="Filo.cpp" />
     <ClCompile Include="jefe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="normales.cpp" />
     <ClCompile Include="npc.cpp" />
     <ClCompile Include="Pociones.cpp" />
     <ClCompile Include="protagonista.cpp" />
@@ -163,8 +164,10 @@
     <ClInclude Include="dociles.h" />
     <ClInclude Include="Envenenamiento.h" />
     <ClInclude Include="filo.h" />
+    <ClInclude Include="inventario.h" />
     <ClInclude Include="Malignas.h" />
     <ClInclude Include="npc.h" />
+    <ClInclude Include="Objetos.h" />
     <ClInclude Include="Pociones.h" />
     <ClInclude Include="protagonista.h" />
     <ClInclude Include="Sanadoras.h" />

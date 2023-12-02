@@ -11,7 +11,7 @@ class Envenenamiento : public Bonus {
 		int getEfecto();
 		int getTipo()override;
 		string atributo()override;
-		virtual int tipoRandom();
+		//virtual int tipoRandom();
 
 };
 

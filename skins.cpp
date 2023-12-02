@@ -4,21 +4,13 @@
 #include "skins.h"
 
 
-Skins::Skins(vector<string> &skinFiles, vector <IntRect*> &dimensiones, Sprite* sprite)
-{
-    this->skinFiles = skinFiles;
-    this->dimensiones = dimensiones;
-    this->sprite = sprite;
-}
+Skins::Skins(IntRect* dimension, Texture *textura):
+    dimension(dimension), sprite(new Sprite(*textura)){}
 
-string Skins::getSkinFiles(int pos)
-{
-    return this->skinFiles[pos];
-}
 
-void Skins::setSkinFiles(vector<string>& skinFiles)
+void Skins::setDimension(IntRect* dimension)
 {
-    this->skinFiles = skinFiles;
+    this->dimension = dimension;
 }
 
 Sprite* Skins::getSprite()

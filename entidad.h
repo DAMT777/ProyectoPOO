@@ -17,9 +17,11 @@ public:
 	Entidad(int vida, int velocidad); 
 	int getVelocidad(); 
 	int getVida();
-	void setVelocidad(float velocidad);
+	void setVelocidad(int velocidad);
 	void setVida(int nuevaVida); 
 	Skins* getSkin();
-
+	float distanciaRelativa(float x, float y) override;
+	bool validarColision(float distancia) override;
 };
+
 #endif 

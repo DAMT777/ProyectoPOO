@@ -8,7 +8,7 @@ class Dociles : public Entidad {
 	public:
 		Dociles(int vida, int velocidad, string nombre);
 		string getNombre();
-		void setNombre(string);
+		void setNombre(string nombre);
 };
 
 

@@ -6,7 +6,7 @@
 using namespace std; 
 class Normales : public Enemigos {
 	Normales();
-	~Normales();//falta la sobrecarga de operadores-=(no sabo de eso prdon)
+	//falta la sobrecarga de operadores-=(no sabo de eso prdon)
 
 };
-#endif // !NORMALES_H
+#endif 

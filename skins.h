@@ -9,13 +9,11 @@ using namespace std;
 using namespace sf;
 class Skins {
 	private:
-		vector <string> skinFiles;
-		vector <IntRect*> dimensiones;
+		IntRect* dimension;
 		Sprite *sprite;
 	public:
-		Skins(vector <string> &skinFiles, vector <IntRect*> &dimensiones, Sprite*sprite);
-		string getSkinFiles(int pos);
-		void setSkinFiles(vector <string> &skinFiles);
+		Skins(IntRect* dimension, Texture* textura);
+		void setDimension(IntRect* dimension);
 		Sprite* getSprite();
 };
 
